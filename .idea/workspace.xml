@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf9b9965-2488-43a5-9ae5-249c1263dcb0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cf9b9965-2488-43a5-9ae5-249c1263dcb0" name="Changes" comment="improve:actualizacion diagrama">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Administrativo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Asignatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Seccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/entidades/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/rampmaster/enums/Asignaturas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Diagram/DiagramaCaso.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Diagram/DiagramaCaso.drawio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,11 +57,17 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sj-alumno\IdeaProjects\poo_mere_007d\docs\Diagram" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,6 +83,19 @@
       <option name="presentableId" value="Default" />
       <updated>1788793826904</updated>
     </task>
+    <task id="LOCAL-00001" summary="improve:actualizacion diagrama">
+      <option name="closed" value="true" />
+      <created>1788795854513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1788795854513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="improve:actualizacion diagrama" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve:actualizacion diagrama" />
   </component>
 </project>
