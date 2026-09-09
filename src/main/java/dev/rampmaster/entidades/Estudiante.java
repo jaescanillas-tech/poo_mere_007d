@@ -14,12 +14,22 @@ public class Estudiante extends Usuario {
         return seccions;
     }
 
-    public void addSeccion(Seccion seccion){
+    public void addSeccion(Seccion seccion) {
         this.seccions.add(seccion);
     }
 
+
     @Override
     public void detalleUser() {
+        System.out.println("=== Estudiante ===");
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("Apellido: " + this.getApellido());
+        System.out.println("Email: " + this.getEmail());
+        System.out.println("Rut: " + this.getRut());
+        System.out.println("Secciones:");
+        for (Seccion seccion : this.seccions) {
+            System.out.println(seccion);
+        }
 
     }
 }

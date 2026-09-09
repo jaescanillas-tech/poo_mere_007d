@@ -12,6 +12,7 @@ public abstract class Usuario {
         this.apellido = apellido;
         this.email = email;
         this.rut = rut;
+        this.estado = true;
     }
 
     public String getNombre() {
@@ -28,6 +29,18 @@ public abstract class Usuario {
 
     public String getRut() {
         return rut;
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+    public void SetEstado(String cambiar) {
+        if (cambiar.equals("Activo")) {
+            this.estado = true;
+        }
+        else if (cambiar.equals("Inactivo")) {
+            this.estado = false;
+        }
     }
 
     public abstract void detalleUser();

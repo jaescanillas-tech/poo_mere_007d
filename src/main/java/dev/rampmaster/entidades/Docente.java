@@ -25,6 +25,11 @@ public class Docente extends Estudiante{
 
     @Override
     public void detalleUser() {
-        super.detalleUser();
+        System.out.println("=== Docente ===");
+        System.out.println("Nombre: " + this.getNombre());
+        System.out.println("Apellido: " + this.getApellido());
+        System.out.println("Email: " + this.getEmail());
+        System.out.println("Rut: " + this.getRut());
+
     }
 }
