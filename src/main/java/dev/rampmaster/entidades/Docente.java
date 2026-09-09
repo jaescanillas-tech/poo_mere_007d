@@ -3,7 +3,7 @@ package dev.rampmaster.entidades;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Docente extends Estudiante{
+public class Docente extends Usuario {
     private ArrayList<Seccion> seccions;
 
     public Docente(String nombre, String apellido, String email, String rut, ArrayList<Seccion> seccions) {
