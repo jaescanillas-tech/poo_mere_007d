@@ -1,6 +1,7 @@
 package dev.rampmaster.entidades;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class Estudiante extends Usuario {

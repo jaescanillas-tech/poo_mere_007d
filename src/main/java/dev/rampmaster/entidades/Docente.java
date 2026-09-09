@@ -4,20 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Docente extends Usuario {
-    private ArrayList<Seccion> seccions;
+    private List<Seccion> seccions = new ArrayList<>();
+    private String especialidad;
 
-    public Docente(String nombre, String apellido, String email, String rut, ArrayList<Seccion> seccions) {
+
+    public Docente(String nombre, String apellido, String email, String rut, List<Seccion> seccions, String especialidad) {
         super(nombre, apellido, email, rut);
         this.seccions = seccions;
+        this.especialidad = especialidad;
     }
 
-    public ArrayList<Seccion> getSeccions() {
+    public List<Seccion> getSeccions() {
         return seccions;
     }
 
-    public void setSeccions(ArrayList<Seccion> seccions) {
-        this.seccions = seccions;
-    }
+
+
+
+
 
     public void addSeccion(Seccion seccion){
         this.seccions.add(seccion);
@@ -30,6 +34,5 @@ public class Docente extends Usuario {
         System.out.println("Apellido: " + this.getApellido());
         System.out.println("Email: " + this.getEmail());
         System.out.println("Rut: " + this.getRut());
-
     }
 }
